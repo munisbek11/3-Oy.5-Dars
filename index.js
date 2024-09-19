@@ -165,3 +165,60 @@
 //     [7, 8, 9],
 //   ])
 // );
+
+//////////// Qo'shimcha masala////////////
+
+/////////////// 1 - masala ///////////////
+
+// let romanNumbers = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+// function RomanToDemical(roman) {
+//   let result = 0;
+//   for (let i = 0; i < roman.length; i++) {
+//     let other = romanNumbers[roman[i]];
+//     let next = romanNumbers[roman[i + 1]];
+//     result += other < next ? -other : other;
+//   }
+//   return result;
+// }
+// console.log(RomanToDemical("IV"));
+
+/////////////// 2 - masala ///////////////
+
+// function mathPow(num1, num2) {
+//   let sum = 1;
+//   for (let i = 0; i < num2; i++) {
+//     sum *= num1;
+//   }
+//   return sum;
+// }
+// console.log(mathPow(8, 2));
+
+/////////////// 3 - masala ///////////////
+
+// function mixArr(arr) {
+//   let sorted = arr.sort((a, b) => a - b);
+//   return sorted[0];
+// }
+// console.log(mixArr([1, 2, 3, 4, -12]));
+
+/////////////// 4 - masala ///////////////
+
+// function maxArr(arr) {
+//   let sorted = arr.sort((a, b) => b - a);
+//   return sorted[0];
+// }
+// console.log(maxArr([1, 2, 3, 4, 5, 6]));
+
+/////////////// 5 - masala ///////////////
+
+// function mathFloor(num) {
+//   return parseInt(num);
+// }
+// console.log(mathFloor(12.6));
+
+/////////////// 6 - masala ///////////////
+
+// function mathCeil(num) {
+//   return parseInt(num) + 1;
+// }
+// console.log(mathCeil(12.1));
