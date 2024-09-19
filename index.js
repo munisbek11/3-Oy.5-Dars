@@ -129,7 +129,7 @@
 //   for (let i = 0; i < newArr.length; i++) {
 //     newArr[i] = newArr[i].length;
 //   }
-//   return newArr;
+//   return Math.max(...newArr);
 // }
 // console.log(longestIncreasingSubarray([10, 20, 30, 10, 40, 50, 52, 55, 6]));
 
